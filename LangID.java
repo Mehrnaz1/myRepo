@@ -789,7 +789,8 @@ public class LangID {
             
     }
 
-    public static void main(String[] args) throws IOException {         
+    public static void main(String[] args) throws IOException {  
+        System.out.println("hiiiiii");
         String lineOfFile;
         try {
             readAfile = new BufferedReader(new FileReader("simple-training-tweets_clean.txt"));
